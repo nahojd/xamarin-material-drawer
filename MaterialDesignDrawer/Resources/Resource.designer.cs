@@ -1327,7 +1327,10 @@ namespace MaterialDesignDrawer
 			public const int abc_textfield_search_material = 2130837562;
 			
 			// aapt resource value: 0x7f02003b
-			public const int Icon = 2130837563;
+			public const int header_background = 2130837563;
+			
+			// aapt resource value: 0x7f02003c
+			public const int Icon = 2130837564;
 			
 			static Drawable()
 			{
@@ -1341,6 +1344,12 @@ namespace MaterialDesignDrawer
 		
 		public partial class Id
 		{
+			
+			// aapt resource value: 0x7f0a0053
+			public const int DrawerLayout = 2131361875;
+			
+			// aapt resource value: 0x7f0a0055
+			public const int RecyclerView = 2131361877;
 			
 			// aapt resource value: 0x7f0a0040
 			public const int action_bar = 2131361856;
@@ -1381,14 +1390,14 @@ namespace MaterialDesignDrawer
 			// aapt resource value: 0x7f0a0025
 			public const int action_mode_close_button = 2131361829;
 			
-			// aapt resource value: 0x7f0a0051
-			public const int action_search = 2131361873;
+			// aapt resource value: 0x7f0a0057
+			public const int action_search = 2131361879;
 			
-			// aapt resource value: 0x7f0a0050
-			public const int action_settings = 2131361872;
+			// aapt resource value: 0x7f0a0056
+			public const int action_settings = 2131361878;
 			
-			// aapt resource value: 0x7f0a0052
-			public const int action_user = 2131361874;
+			// aapt resource value: 0x7f0a0058
+			public const int action_user = 2131361880;
 			
 			// aapt resource value: 0x7f0a0026
 			public const int activity_chooser_view_content = 2131361830;
@@ -1438,6 +1447,9 @@ namespace MaterialDesignDrawer
 			// aapt resource value: 0x7f0a0042
 			public const int edit_query = 2131361858;
 			
+			// aapt resource value: 0x7f0a0050
+			public const int email = 2131361872;
+			
 			// aapt resource value: 0x7f0a0014
 			public const int end = 2131361812;
 			
@@ -1474,6 +1486,9 @@ namespace MaterialDesignDrawer
 			// aapt resource value: 0x7f0a001e
 			public const int multiply = 2131361822;
 			
+			// aapt resource value: 0x7f0a004f
+			public const int name = 2131361871;
+			
 			// aapt resource value: 0x7f0a0019
 			public const int never = 2131361817;
 			
@@ -1494,6 +1509,12 @@ namespace MaterialDesignDrawer
 			
 			// aapt resource value: 0x7f0a003a
 			public const int radio = 2131361850;
+			
+			// aapt resource value: 0x7f0a0051
+			public const int rowIcon = 2131361873;
+			
+			// aapt resource value: 0x7f0a0052
+			public const int rowText = 2131361874;
 			
 			// aapt resource value: 0x7f0a001f
 			public const int screen = 2131361823;
@@ -1573,8 +1594,8 @@ namespace MaterialDesignDrawer
 			// aapt resource value: 0x7f0a002f
 			public const int title_template = 2131361839;
 			
-			// aapt resource value: 0x7f0a004f
-			public const int toolbar = 2131361871;
+			// aapt resource value: 0x7f0a0054
+			public const int toolbar = 2131361876;
 			
 			// aapt resource value: 0x7f0a002e
 			public const int topPanel = 2131361838;
@@ -1702,22 +1723,28 @@ namespace MaterialDesignDrawer
 			public const int abc_simple_dropdown_hint = 2130903064;
 			
 			// aapt resource value: 0x7f030019
-			public const int Main = 2130903065;
+			public const int DrawerHeader = 2130903065;
 			
 			// aapt resource value: 0x7f03001a
-			public const int select_dialog_item_material = 2130903066;
+			public const int DrawerItemRow = 2130903066;
 			
 			// aapt resource value: 0x7f03001b
-			public const int select_dialog_multichoice_material = 2130903067;
+			public const int Main = 2130903067;
 			
 			// aapt resource value: 0x7f03001c
-			public const int select_dialog_singlechoice_material = 2130903068;
+			public const int select_dialog_item_material = 2130903068;
 			
 			// aapt resource value: 0x7f03001d
-			public const int support_simple_spinner_dropdown_item = 2130903069;
+			public const int select_dialog_multichoice_material = 2130903069;
 			
 			// aapt resource value: 0x7f03001e
-			public const int Toolbar = 2130903070;
+			public const int select_dialog_singlechoice_material = 2130903070;
+			
+			// aapt resource value: 0x7f03001f
+			public const int support_simple_spinner_dropdown_item = 2130903071;
+			
+			// aapt resource value: 0x7f030020
+			public const int Toolbar = 2130903072;
 			
 			static Layout()
 			{
@@ -1748,56 +1775,56 @@ namespace MaterialDesignDrawer
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f070003
-			public const int abc_action_bar_home_description = 2131165187;
-			
-			// aapt resource value: 0x7f070004
-			public const int abc_action_bar_home_description_format = 2131165188;
-			
 			// aapt resource value: 0x7f070005
-			public const int abc_action_bar_home_subtitle_description_format = 2131165189;
+			public const int abc_action_bar_home_description = 2131165189;
 			
 			// aapt resource value: 0x7f070006
-			public const int abc_action_bar_up_description = 2131165190;
+			public const int abc_action_bar_home_description_format = 2131165190;
 			
 			// aapt resource value: 0x7f070007
-			public const int abc_action_menu_overflow_description = 2131165191;
+			public const int abc_action_bar_home_subtitle_description_format = 2131165191;
 			
 			// aapt resource value: 0x7f070008
-			public const int abc_action_mode_done = 2131165192;
+			public const int abc_action_bar_up_description = 2131165192;
 			
 			// aapt resource value: 0x7f070009
-			public const int abc_activity_chooser_view_see_all = 2131165193;
+			public const int abc_action_menu_overflow_description = 2131165193;
 			
 			// aapt resource value: 0x7f07000a
-			public const int abc_activitychooserview_choose_application = 2131165194;
+			public const int abc_action_mode_done = 2131165194;
 			
 			// aapt resource value: 0x7f07000b
-			public const int abc_search_hint = 2131165195;
+			public const int abc_activity_chooser_view_see_all = 2131165195;
 			
 			// aapt resource value: 0x7f07000c
-			public const int abc_searchview_description_clear = 2131165196;
+			public const int abc_activitychooserview_choose_application = 2131165196;
 			
 			// aapt resource value: 0x7f07000d
-			public const int abc_searchview_description_query = 2131165197;
+			public const int abc_search_hint = 2131165197;
 			
 			// aapt resource value: 0x7f07000e
-			public const int abc_searchview_description_search = 2131165198;
+			public const int abc_searchview_description_clear = 2131165198;
 			
 			// aapt resource value: 0x7f07000f
-			public const int abc_searchview_description_submit = 2131165199;
+			public const int abc_searchview_description_query = 2131165199;
 			
 			// aapt resource value: 0x7f070010
-			public const int abc_searchview_description_voice = 2131165200;
+			public const int abc_searchview_description_search = 2131165200;
 			
 			// aapt resource value: 0x7f070011
-			public const int abc_shareactionprovider_share_with = 2131165201;
+			public const int abc_searchview_description_submit = 2131165201;
 			
 			// aapt resource value: 0x7f070012
-			public const int abc_shareactionprovider_share_with_application = 2131165202;
+			public const int abc_searchview_description_voice = 2131165202;
 			
 			// aapt resource value: 0x7f070013
-			public const int abc_toolbar_collapse_description = 2131165203;
+			public const int abc_shareactionprovider_share_with = 2131165203;
+			
+			// aapt resource value: 0x7f070014
+			public const int abc_shareactionprovider_share_with_application = 2131165204;
+			
+			// aapt resource value: 0x7f070015
+			public const int abc_toolbar_collapse_description = 2131165205;
 			
 			// aapt resource value: 0x7f070002
 			public const int action_settings = 2131165186;
@@ -1805,8 +1832,14 @@ namespace MaterialDesignDrawer
 			// aapt resource value: 0x7f070001
 			public const int app_name = 2131165185;
 			
+			// aapt resource value: 0x7f070004
+			public const int close_drawer = 2131165188;
+			
 			// aapt resource value: 0x7f070000
 			public const int hello_world = 2131165184;
+			
+			// aapt resource value: 0x7f070003
+			public const int open_drawer = 2131165187;
 			
 			static String()
 			{

@@ -3,4 +3,7 @@
 	<string name="hello_world">Hello World!</string>
 	<string name="app_name">MaterialDesignDrawer</string>
 	<string name="action_settings">Settings</string>
+
+	<string name="open_drawer">Drawer opened</string>
+	<string name="close_drawer">Drawer closed</string>
 </resources>
