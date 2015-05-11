@@ -9,6 +9,8 @@ using Android.OS;
 using Android.Support.V7.App;
 using Android.Support.V7.Widget;
 using Android.Support.V4.Widget;
+using Toolbar = Android.Support.V7.Widget.Toolbar;
+using Android.Util;
 
 namespace MaterialDesignDrawer
 {
@@ -38,6 +40,12 @@ namespace MaterialDesignDrawer
 
 			recyclerView = FindViewById<RecyclerView>(Resource.Id.RecyclerView);
 			recyclerView.HasFixedSize = true;
+
+			//Make sure that we always have the minimum right margin of 56dp on the navigation drawer
+			var minDrawerMargin = (int)Resources.GetDimension(Resource.Dimension.navigation_drawer_min_margin); 
+			var maxDrawerWidth = Resources.DisplayMetrics.WidthPixels - minDrawerMargin; 
+			recyclerView.LayoutParameters.Width = Math.Min(recyclerView.LayoutParameters.Width, maxDrawerWidth);
+
 
 			adapter = new DrawerAdapter(Titles, Icons);
 			recyclerView.SetAdapter(adapter);

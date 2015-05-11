@@ -81,10 +81,16 @@
     <AndroidResource Include="Resources\layout\DrawerItemRow.axml" />
     <AndroidResource Include="Resources\layout\DrawerHeader.axml" />
     <AndroidResource Include="Resources\drawable-nodpi\header_background.jpg" />
+    <AndroidResource Include="Resources\values-v19\styles.xml" />
+    <AndroidResource Include="Resources\values-v21\styles.xml" />
+    <AndroidResource Include="Resources\values-v21\dimens.xml" />
+    <AndroidResource Include="Resources\values-v19\dimens.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup>
     <Folder Include="Resources\menu\" />
     <Folder Include="Resources\drawable-nodpi\" />
+    <Folder Include="Resources\values-v19\" />
+    <Folder Include="Resources\values-v21\" />
   </ItemGroup>
 </Project>
